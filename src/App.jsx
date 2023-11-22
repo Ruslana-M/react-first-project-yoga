@@ -35,16 +35,7 @@ function App() {
           path="/asana"
           element={<Asana selectedAsana={selectedAsana} />}
         />
-        <Route
-          path="/*"
-          element={
-            <div className='flex flex-col items-center h-5/6 justify-center'>
-              <p className="text-6xl">404</p>
-              <p className="text-3xl">Page not found</p>
-              <Link to="/" className="text-2xl underline decoration-solid decoration-sky-500">Go back to home</Link>
-            </div>
-          }
-        />
+        <Route path="/*" element={<Errorpage />} />
       </Routes>
 
       <Footer />
