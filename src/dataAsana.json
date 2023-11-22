@@ -1,0 +1,46 @@
+{
+  "asanas": [
+    {
+      "id": 1,
+      "english_name": "Butterfly",
+      "sanskrit_name": "Baddha Koṇāsana",
+      "translation_name": "baddha = bound, koṇa = angle, āsana = posture",
+      "pose_description": "In sitting position, bend both knees and drop the knees to each side, opening the hips.  Bring the soles of the feet together and bring the heels as close to the groin as possible, keeping the knees close to the ground.  The hands may reach down and grasp and maneuver the feet so that the soles are facing upwards and the heels and little toes are connected.  The shoulders should be pulled back and no rounding of the spine.",
+      "pic": "https://i.pinimg.com/474x/64/a3/69/64a369185ee6bfcbcd1bea07fc39ff29.jpg "
+    },
+
+    {
+      "id": 2,
+      "english_name": "Boat Pose",
+      "sanskrit_name": "Navasana",
+      "translation_name": "Boat Pose",
+      "pose_description": "Engage your abdominal muscles with core yoga poses that build a strong and stable center like. Boat Pose, Dolphin Pose and Side Plank Pose.",
+      "pic": "https://i.pinimg.com/474x/d1/fb/19/d1fb190d827b7cffc88ed68bde6d02a5.jpg"
+    },
+    {
+      "id": 3,
+      "english_name": "Triangle pose",
+      "sanskrit_name": "Trikonasana",
+      "translation_name": "Triangle pose",
+      "pose_description": " Yoga practice with this pose that help you find better alignment, increase your flexibility, and relieve lower back pain and discomfort. Tone the belly, massage your internal organs, and relieve lower back pain in these seated yoga poses. ",
+      "pic": "https://i.pinimg.com/474x/4a/bf/6a/4abf6a64305cdd1fe243c253b5791ebe.jpg"
+    },
+
+    {
+      "id": 4,
+      "english_name": "Camel Pose - Chest Opening",
+      "sanskrit_name": "Camel Pose - Chest Opening",
+      "translation_name": "Camel Pose - Chest Opening",
+      "pose_description": "Open your heart and shoulders in chest opening yoga poses like Camel Pose, Fish Pose.",
+      "pic": "https://i.pinimg.com/474x/66/65/7a/66657a64d1680a4f5ccaaa48430f3aaf.jpg"
+    },
+    {
+      "id": 5,
+      "english_name": "Cat-Cow Backbend Asana",
+      "sanskrit_name": "Bitilāsana",
+      "translation_name": "bitil = cow, āsana = posture",
+      "pose_description": "From  box neutral the ribcage is lifted with a gentle sway in the low back.  The tailbone lifts up into dog tilt.  The eyes are soft and the gaze is to the sky.",
+      "pic": "https://i.pinimg.com/474x/3e/1e/67/3e1e67d7cb4fbb733290a8014d0fb084.jpg"
+    }
+  ]
+}
