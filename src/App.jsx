@@ -8,9 +8,12 @@ import AsanasCollection from "./pages/AsanasCollection";
 import Asana from "./pages/Asana";
 import Errorpage from "./pages/Errorpage";
 import { useState } from "react";
+import AddProductForm from "./pages/AddProductForm";
+
 
 function App() {
   const [selectedAsana, setSelectedAsana] = useState();
+  const [allProducts, setAllProducts] = useState (dataAsana.asanas)
 
   const navigate = useNavigate();
 
@@ -28,7 +31,7 @@ function App() {
         <Route
           path="/asanasCollection"
           element={
-            <AsanasCollection data={dataAsana} onClickAsana={onClickAsana} />
+            <AsanasCollection  allProducts={allProducts} data={dataAsana} onClickAsana={onClickAsana}  />
           }
         />
         <Route
@@ -36,7 +39,11 @@ function App() {
           element={<Asana selectedAsana={selectedAsana} />}
         />
         <Route path="/*" element={<Errorpage />} />
+
+        <Route path="/addProduct" element = {<AddProductForm  setAllProducts={setAllProducts} addingAsana=  {setSelectedAsana} />} />
+
       </Routes>
+
 
       <Footer />
     </div>

@@ -14,7 +14,6 @@ function Asana(props) {
       <p className="font-bold"> {props.selectedAsana.translation_name} </p>
       <p className="font-bold"> {props.selectedAsana.pose_description} </p>
       <button className="btn btn-primary p-2 m-6" onClick={returnButton}>
-        {" "}
         Back to Asanas
       </button>
     </div>
